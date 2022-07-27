@@ -13,7 +13,7 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   final CameraDescription camera;
-  MyApp(this.camera, {Key? key}) : super(key: key);
+  const MyApp(this.camera, {Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -22,11 +22,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorSchemeSeed: const Color(0xFFA0EEFF),
-        useMaterial3: true,
       ),
       routes: {
         HomePage.routeName: (context) => HomePage(camera),
-        ProcessingScreen.routeName: (context) => ProcessingScreen(),
+        ProcessingScreen.routeName: (context) => const ProcessingScreen(),
       },
       initialRoute: HomePage.routeName,
     );
