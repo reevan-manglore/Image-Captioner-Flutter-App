@@ -13,18 +13,18 @@ class _CameraTargetState extends State<CameraTarget>
     with SingleTickerProviderStateMixin {
   late AnimationController _controler;
   late Animation<double> _sizeAnimation;
-  AudioPlayer _myPlayer = AudioPlayer();
+  final AudioPlayer _myPlayer = AudioPlayer();
 
   @override
   void initState() {
     print("init state in camera target called");
     _controler = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 200),
+      duration: const Duration(milliseconds: 300),
     );
     _sizeAnimation = TweenSequence(<TweenSequenceItem<double>>[
-      TweenSequenceItem<double>(tween: Tween(begin: 200, end: 220), weight: 50),
-      TweenSequenceItem<double>(tween: Tween(begin: 220, end: 200), weight: 50),
+      TweenSequenceItem<double>(tween: Tween(begin: 200, end: 240), weight: 50),
+      TweenSequenceItem<double>(tween: Tween(begin: 240, end: 200), weight: 50),
     ]).animate(
       CurvedAnimation(parent: _controler, curve: Curves.fastOutSlowIn),
     );

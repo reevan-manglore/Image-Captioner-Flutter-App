@@ -1,3 +1,7 @@
+#secrets 
+secrets.dart
+*.jks
+
 # Miscellaneous
 *.class
 *.log

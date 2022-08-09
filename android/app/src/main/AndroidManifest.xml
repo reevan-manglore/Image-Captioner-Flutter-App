@@ -2,8 +2,13 @@
     package="com.example.final_year_project">
     <!-- permision to accese camera-->
     <uses-permission android:name="android.permission.CAMERA"/>
+    <!--permison to accesse internet-->
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <!--permison to accesse mobile vibration motor-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
    <application
-        android:label="final_year_project"
+        android:label="Image Captioner"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

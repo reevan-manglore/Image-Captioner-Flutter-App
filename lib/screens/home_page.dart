@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Blind App"),
+        title: const Text("Image Captioner"),
         centerTitle: true,
       ),
       body: _CameraComponent(camera),
@@ -62,7 +62,7 @@ class __CameraComponentState extends State<_CameraComponent> {
       if (await Permission.camera.status.isGranted) {
         controller = CameraController(
           widget.camera,
-          ResolutionPreset.medium,
+          ResolutionPreset.low,
         );
 
         _initalizeCamera = controller.initialize();
