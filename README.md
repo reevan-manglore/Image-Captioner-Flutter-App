@@ -40,13 +40,19 @@ Image captioning app is a powerful mobile application that helps users to quickl
     &ensp; &ensp;
 </span>
 
+
+<span>
+  <img src = "./screenshots/laptop-processing-screen.jpg" width = "200px"/>  
+    &ensp; &ensp;
+</span>
+
 <span>
   <img src = "./screenshots/laptop-description-screen.jpg" width = "200px"/>
      &ensp; &ensp;
  </span>
 
 
------
+---
 
 <span>
   <img src = "./screenshots/fan-capture-screen.jpg" width = "200px"/>
@@ -59,7 +65,7 @@ Image captioning app is a powerful mobile application that helps users to quickl
  </span>
 
 
-### Video
+### Demo Video
 
 https://user-images.githubusercontent.com/50790161/206453580-624b0807-723f-48d4-8055-aa445a482895.mp4
 
